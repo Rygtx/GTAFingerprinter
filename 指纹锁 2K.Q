@@ -207,9 +207,10 @@ Sub Thread1
             FindPic 920, 256, 1056, 400,"Attachment:\1.4.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 56
             End If
             KeyPress "Tab", 1
+            StopThread Thread1
             Delay 31
         End If
     Wend 
@@ -384,9 +385,10 @@ Sub Thread2
             FindPic 920, 256, 1056, 400,"Attachment:\2.4.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 56
             End If
             KeyPress "Tab", 1
+            StopThread Thread2
             Delay 31
         End If
     Wend
@@ -561,9 +563,10 @@ Sub Thread3
             FindPic 920, 256, 1056, 400,"Attachment:\3.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 56
             End If
             KeyPress "Tab", 1
+            StopThread Thread3
             Delay 31
         End If
     Wend
@@ -738,9 +741,10 @@ Sub Thread4
             FindPic 920, 256, 1056, 400,"Attachment:\4.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 56
             End If
             KeyPress "Tab", 1
+            StopThread Thread4
             Delay 31
         End If
     Wend
