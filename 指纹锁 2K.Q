@@ -220,7 +220,7 @@ Sub Thread2
         Delay 10
         FindPic 1180, 120, 1756,700,"Attachment:\2.bmp",0.64,intX,intY
         If intX > 0 And intY > 0 Then
-            FindPic 775,256,920,400,"Attachment:\2.1.bmp",0.64,intX,intY
+            FindPic 775,256,920,400,"Attachment:\2.1.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
                 Delay 10
