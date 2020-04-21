@@ -34,353 +34,352 @@ BeginThread Thread3
 BeginThread Thread4
 //下面是主线程缓冲，必须加这个无限循环
 While 1
-    Delay 100
+    Delay 1230
 Wend
 EndScript
 Sub Thread1
     While 1
-        Delay 10
+        Delay 123
         FindPic 1180, 120, 1756,700,"Attachment:\1.bmp",0.64,intX,intY
         If intX > 0 And intY > 0 Then
             FindPic 775,256,920,400,"Attachment:\1.1.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775,256,920,400,"Attachment:\1.2.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then 
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775,256,920,400,"Attachment:\1.3.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then 
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
-            FindPic 775,256,920,400,"Attachment:\1.4.bmp",0.64,intX,intY
+            FindPic 775,256,920,400,"Attachment:\1.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 400, 920, 540, "Attachment:\1.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 400, 920, 540, "Attachment:\1.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 400, 920, 540, "Attachment:\1.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
-            FindPic 775, 400, 920, 540,"Attachment:\1.4.bmp",0.64,intX,intY
+            FindPic 775, 400, 920, 540,"Attachment:\1.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 550, 920, 700, "Attachment:\1.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 550, 920, 700, "Attachment:\1.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 550, 920, 700, "Attachment:\1.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
-            FindPic 775, 550, 920, 700,"Attachment:\1.4.bmp",0.64,intX,intY
+            FindPic 775, 550, 920, 700,"Attachment:\1.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 700, 920, 831, "Attachment:\1.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 700, 920, 831, "Attachment:\1.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 700, 920, 831, "Attachment:\1.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
-            FindPic 775, 700, 920, 831,"Attachment:\1.4.bmp",0.64,intX,intY
+            FindPic 775, 700, 920, 831,"Attachment:\1.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "D", 1
             FindPic 920, 686, 1056, 831, "Attachment:\1.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 686, 1056, 831, "Attachment:\1.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 686, 1056, 831, "Attachment:\1.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
-            FindPic 920, 686, 1056, 831,"Attachment:\1.4.bmp",0.64,intX,intY
+            FindPic 920, 686, 1056, 831,"Attachment:\1.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 550, 1056, 686, "Attachment:\1.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 550, 1056, 686, "Attachment:\1.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 550, 1056, 686, "Attachment:\1.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
-            FindPic 920, 550, 1056, 686,"Attachment:\1.4.bmp",0.64,intX,intY
+            FindPic 920, 550, 1056, 686,"Attachment:\1.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 400, 1056, 542, "Attachment:\1.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 400, 1056, 542, "Attachment:\1.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 400, 1056, 542, "Attachment:\1.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
-            FindPic 920, 400, 1056, 542,"Attachment:\1.4.bmp",0.64,intX,intY
+            FindPic 920, 400, 1056, 542,"Attachment:\1.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 256, 1056, 400, "Attachment:\1.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 256, 1056, 400, "Attachment:\1.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 256, 1056, 400, "Attachment:\1.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
-            FindPic 920, 256, 1056, 400,"Attachment:\1.4.bmp",0.64,intX,intY
+            FindPic 920, 256, 1056, 400,"Attachment:\1.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
                 Delay 56
             End If
             KeyPress "Tab", 1
-            StopThread Thread1
             Delay 31
         End If
     Wend 
 End Sub
 Sub Thread2
     While 1
-        Delay 10
+        Delay 123
         FindPic 1180, 120, 1756,700,"Attachment:\2.bmp",0.64,intX,intY
         If intX > 0 And intY > 0 Then
             FindPic 775,256,920,400,"Attachment:\2.1.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775,256,920,400,"Attachment:\2.2.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then 
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775,256,920,400,"Attachment:\2.3.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then 
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775,256,920,400,"Attachment:\2.4.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 400, 920, 540, "Attachment:\2.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 400, 920, 540, "Attachment:\2.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 400, 920, 540, "Attachment:\2.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 400, 920, 540,"Attachment:\2.4.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 550, 920, 700, "Attachment:\2.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 550, 920, 700, "Attachment:\2.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 550, 920, 700, "Attachment:\2.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 550, 920, 700,"Attachment:\2.4.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 700, 920, 831, "Attachment:\2.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 700, 920, 831, "Attachment:\2.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 700, 920, 831, "Attachment:\2.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 700, 920, 831,"Attachment:\2.4.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "D", 1
             FindPic 920, 686, 1056, 831, "Attachment:\2.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 686, 1056, 831, "Attachment:\2.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 686, 1056, 831, "Attachment:\2.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 686, 1056, 831,"Attachment:\2.4.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 550, 1056, 686, "Attachment:\2.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 550, 1056, 686, "Attachment:\2.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 550, 1056, 686, "Attachment:\2.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 550, 1056, 686,"Attachment:\2.4.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 400, 1056, 542, "Attachment:\2.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 400, 1056, 542, "Attachment:\2.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 400, 1056, 542, "Attachment:\2.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 400, 1056, 542,"Attachment:\2.4.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 256, 1056, 400, "Attachment:\2.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 256, 1056, 400, "Attachment:\2.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 256, 1056, 400, "Attachment:\2.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 256, 1056, 400,"Attachment:\2.4.bmp",0.64,intX,intY
             If intX > 0 And intY > 0 Then
@@ -388,177 +387,176 @@ Sub Thread2
                 Delay 56
             End If
             KeyPress "Tab", 1
-            StopThread Thread2
             Delay 31
         End If
     Wend
 End Sub
 Sub Thread3
     While 1
-        Delay 10
+        Delay 123
         FindPic 1180, 120, 1756,700,"Attachment:\3.bmp",0.64,intX,intY
         If intX > 0 And intY > 0 Then
             FindPic 775,256,920,400,"Attachment:\3.1.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775,256,920,400,"Attachment:\3.2.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then 
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775,256,920,400,"Attachment:\3.3.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then 
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775,256,920,400,"Attachment:\3.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 400, 920, 540, "Attachment:\3.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 400, 920, 540, "Attachment:\3.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 400, 920, 540, "Attachment:\3.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 400, 920, 540,"Attachment:\3.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 550, 920, 700, "Attachment:\3.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 550, 920, 700, "Attachment:\3.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 550, 920, 700, "Attachment:\3.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 550, 920, 700,"Attachment:\3.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 700, 920, 831, "Attachment:\3.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 700, 920, 831, "Attachment:\3.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 700, 920, 831, "Attachment:\3.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 700, 920, 831,"Attachment:\3.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "D", 1
             FindPic 920, 686, 1056, 831, "Attachment:\3.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 686, 1056, 831, "Attachment:\3.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 686, 1056, 831, "Attachment:\3.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 686, 1056, 831,"Attachment:\3.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 550, 1056, 686, "Attachment:\3.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 550, 1056, 686, "Attachment:\3.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 550, 1056, 686, "Attachment:\3.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 550, 1056, 686,"Attachment:\3.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 400, 1056, 542, "Attachment:\3.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 400, 1056, 542, "Attachment:\3.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 400, 1056, 542, "Attachment:\3.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 400, 1056, 542,"Attachment:\3.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 256, 1056, 400, "Attachment:\3.1.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 256, 1056, 400, "Attachment:\3.2.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 256, 1056, 400, "Attachment:\3.3.bmp", 0.64, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 256, 1056, 400,"Attachment:\3.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
@@ -566,177 +564,176 @@ Sub Thread3
                 Delay 56
             End If
             KeyPress "Tab", 1
-            StopThread Thread3
             Delay 31
         End If
     Wend
 End Sub
 Sub Thread4
     While 1
-        Delay 10
+        Delay 123
         FindPic 1180, 120, 1756,700,"Attachment:\4.bmp",0.64,intX,intY
         If intX > 0 And intY > 0 Then
             FindPic 775,256,920,400,"Attachment:\4.1.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775,256,920,400,"Attachment:\4.2.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then 
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775,256,920,400,"Attachment:\4.3.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then 
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775,256,920,400,"Attachment:\4.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 400, 920, 540, "Attachment:\4.1.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 400, 920, 540, "Attachment:\4.2.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 400, 920, 540, "Attachment:\4.3.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 400, 920, 540,"Attachment:\4.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 550, 920, 700, "Attachment:\4.1.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 550, 920, 700, "Attachment:\4.2.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 550, 920, 700, "Attachment:\4.3.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 550, 920, 700,"Attachment:\4.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "S", 1
             FindPic 775, 700, 920, 831, "Attachment:\4.1.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 700, 920, 831, "Attachment:\4.2.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 700, 920, 831, "Attachment:\4.3.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 775, 700, 920, 831,"Attachment:\4.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "D", 1
             FindPic 920, 686, 1056, 831, "Attachment:\4.1.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 686, 1056, 831, "Attachment:\4.2.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 686, 1056, 831, "Attachment:\4.3.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 686, 1056, 831,"Attachment:\4.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 550, 1056, 686, "Attachment:\4.1.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 550, 1056, 686, "Attachment:\4.2.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 550, 1056, 686, "Attachment:\4.3.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 550, 1056, 686,"Attachment:\4.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 400, 1056, 542, "Attachment:\4.1.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 400, 1056, 542, "Attachment:\4.2.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 400, 1056, 542, "Attachment:\4.3.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 400, 1056, 542,"Attachment:\4.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             KeyPress "W", 1
             FindPic 920, 256, 1056, 400, "Attachment:\4.1.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 256, 1056, 400, "Attachment:\4.2.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 256, 1056, 400, "Attachment:\4.3.bmp", 0.56, intX, intY
             If intX > 0 And intY > 0 Then
                 KeyPress "Enter", 1
-                Delay 10
+                Delay 123
             End If
             FindPic 920, 256, 1056, 400,"Attachment:\4.4.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then
@@ -744,7 +741,6 @@ Sub Thread4
                 Delay 56
             End If
             KeyPress "Tab", 1
-            StopThread Thread4
             Delay 31
         End If
     Wend
