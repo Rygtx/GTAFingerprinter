@@ -52,7 +52,7 @@ Sub Thread1
                 KeyPress "Enter", 1
                 Delay 10
             End If
-            FindPic 775,256,920,400,"Attachment:\1.3.bmp",0.64,intX,intY
+            FindPic 775,256,920,400,"Attachment:\1.3.bmp",0.56,intX,intY
             If intX > 0 And intY > 0 Then 
                 KeyPress "Enter", 1
                 Delay 10
